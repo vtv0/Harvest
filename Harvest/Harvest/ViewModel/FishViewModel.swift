@@ -10,7 +10,7 @@ import SwiftUI
 import RealmSwift
 
 
-final class FishViewModel: ObservableObject {
+class FishViewModel: ObservableObject {
     @Published var fishes: [FishModel] = []
     private var token: NotificationToken?
     
