@@ -185,7 +185,7 @@ struct SummaryView: View {
 
     }
 
-    // --- PDF xuất không có phí nước ---
+   
     func shareSummaryAsPDF(summaries: [FishSummary], grandTotal: Double) {
         guard !summaries.isEmpty else { return }
 
