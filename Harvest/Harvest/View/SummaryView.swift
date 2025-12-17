@@ -264,7 +264,7 @@ struct SummaryView: View {
                 self.pdfURL = tempURL // hiển thị sheet khi URL được set
             }
         } catch {
-            print("❌ Lỗi ghi file PDF: \(error)")
+            print("Lỗi ghi file PDF: \(error)")
         }
     }
 
