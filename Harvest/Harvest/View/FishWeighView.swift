@@ -45,8 +45,6 @@ struct FishWeighView: View {
         max(totalWeight - tareValue, 0)
     }
     
-    
-    
     init (fish: FishModel, editingWeighID: String? = nil) {
         self.fish = fish
         self.editingWeighID = editingWeighID
